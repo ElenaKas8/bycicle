@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f5f5f5;
+  color: #22356F;
+  
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color:  #F9B640;
+  color: white;
+  border-radius: 50px;
+  padding: 17px 39px;
+  transition: all 0.3s;
+
+}
+button:hover{
+  background-color:  #f0ba5c;
+  box-shadow: #f5f5f5 0px 0px 10px;
+  scale: .95;
+}
+
+h1{
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53.9px;
+  
+}
+h2{
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 36px;
+}
+h3{
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 34.04px;
+  
+}
+p{
+  font-style: italic;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42.5px;
+}
+.nav_menu{
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.nav_header{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero{
+  margin-top: 114px;
+  background-color: #F4F9E2;
+  
+}
+.hero_container{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+  padding-top: 58.2px;
+}
+
+.proposition{ 
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ justify-content: space-between;
+ height: 520px;
+ 
+ 
+}
+
+.paragraf{
+ color: #FFFFFF;
+ font-size: 24px;
+ line-height: 35.46px;
+ width: 586px;
+ height: 270px;
+
+}
+
+.proposition-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 131px 160px 128px 0;
+}
+
+.feedback{
+  max-width: 739px;
+  
+ margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top:251.6px;
+  padding-bottom: 138px;
+  
+}
+
+.bikerental{
+  max-width: 1440px;
+  display: flex;
+}
+.bikerental_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 40px;
+  padding: 242px 53px 243px 67px;
+}
+
+
+
+.services {
+  width: calc(33.33% - 10px);
+  
+  display: inline-block;
+}
+
+.services-content {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  height: 480px; 
+  padding-bottom: 20px; 
+  padding-top: 126px;
+  position: relative;
+  
+
+}
+
+.services-border {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+}
+
+.services-border {
+ 
+  position: absolute;
+  top: calc(50% -30px); 
+  left: 10; 
+  width: calc(100% - 70px); 
+
+}
+
+.services-content h3 {
+  padding-bottom: 50px;
+  padding-left: 40px;
+  color: #FFFFFF;
+}
