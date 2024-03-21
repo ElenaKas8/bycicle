@@ -185,12 +185,7 @@ p{
 }
 
 
-
-
-
-
-
 .services:hover .services-border {
-  border-left: 3px solid #ffffff; /* Добавлено */
+  border-left: 3px solid #ffffff; 
 }
 
