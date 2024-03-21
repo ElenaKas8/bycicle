@@ -177,7 +177,7 @@ p{
   content: ""; 
   position: absolute;
   top: -5px; 
-  left: 10;
+  
   width: 80%;
   height: 1px; 
   background-color: #ffffff; 
@@ -190,5 +190,5 @@ p{
 }
 
 .services-border {
-display: none;
+
 }
