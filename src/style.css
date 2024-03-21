@@ -173,15 +173,15 @@ p{
   display: inline-block; 
 }
 
-.services-content h3::before { /* Добавлен псевдоэлемент */
+.services-content h3::before { 
   content: ""; 
   position: absolute;
-  top: -5px; /* Поднимаем над текстом */
+  top: -5px; 
   left: 10;
   width: 80%;
-  height: 1px; /* Высота border */
-  background-color: #ffffff; /* Изначально прозрачный */
-  transition: background-color 0.3s ease; /* Анимация изменения цвета */
+  height: 1px; 
+  background-color: #ffffff; 
+  transition: background-color 0.3s ease; 
 }
 
  .services-border {
