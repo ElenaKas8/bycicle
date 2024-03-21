@@ -166,7 +166,7 @@ p{
 }
 
 .services-content h3 {
-  padding-bottom: 50px;
+  padding-top: 50px;
   padding-left: 40px;
   color: #FFFFFF;
   position: relative; /* Добавлено */
@@ -177,10 +177,10 @@ p{
   content: ""; 
   position: absolute;
   top: -5px; /* Поднимаем над текстом */
-  left: 0;
-  width: 100%; /* Занимает всю ширину */
-  height: 5px; /* Высота border */
-  background-color: transparent; /* Изначально прозрачный */
+  left: 10;
+  width: 80%;
+  height: 1px; /* Высота border */
+  background-color: #ffffff; /* Изначально прозрачный */
   transition: background-color 0.3s ease; /* Анимация изменения цвета */
 }
 
