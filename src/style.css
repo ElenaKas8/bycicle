@@ -54,6 +54,7 @@ h3{
   font-weight: 400;
   font-size: 32px;
   line-height: 34.04px;
+  cursor: pointer;
   
 }
 p{
@@ -144,9 +145,10 @@ p{
 
 
 .services {
-  width: calc(33.33% - 10px);
-  
+  width: calc(33.33% - 10px);  
   display: inline-block;
+  transition: border-left 0.3s ease;
+ 
 }
 
 .services-content {
@@ -163,7 +165,26 @@ p{
 
 }
 
-.services-border {
+.services-content h3 {
+  padding-bottom: 50px;
+  padding-left: 40px;
+  color: #FFFFFF;
+  position: relative; /* Добавлено */
+  display: inline-block; 
+}
+
+.services-content h3::before { /* Добавлен псевдоэлемент */
+  content: ""; 
+  position: absolute;
+  top: -5px; /* Поднимаем над текстом */
+  left: 0;
+  width: 100%; /* Занимает всю ширину */
+  height: 5px; /* Высота border */
+  background-color: transparent; /* Изначально прозрачный */
+  transition: background-color 0.3s ease; /* Анимация изменения цвета */
+}
+
+ .services-border {
   width: 50%;
   position: absolute;
   top: 20%;
@@ -176,10 +197,12 @@ p{
   left: 10; 
   width: calc(100% - 70px); 
 
+} 
+
+
+
+
+.services:hover .services-border {
+  border-left: 3px solid #ffffff; /* Добавлено */
 }
 
-.services-content h3 {
-  padding-bottom: 50px;
-  padding-left: 40px;
-  color: #FFFFFF;
-}
